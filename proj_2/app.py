@@ -5,7 +5,7 @@ font="Helvetica"
 st.title("DATA VISUALIZATION APP")
 
 image = Image.open('/app/data_dev_app/proj_2/mine.jpg')
-image2 = Image.open('sign.jpg')
+image2 = Image.open('/app/data_dev_app/proj_2/sign.jpg')
 col1, col2 = st.columns(2)
 col1.image(image, caption=None, width=200, use_column_width=500, clamp=False, channels="RGB", output_format="auto")
 url = 'https://www.linkedin.com/in/niharika-ginjupalli-835653204/'
