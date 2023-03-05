@@ -20,6 +20,7 @@ if btn_click == True:
                  "Will get back to you with exciting works, See u After a little while ...")
     if col2.button('Connect with me on LinkedIn') == True:
         webbrowser.open_new_tab('https://www.linkedin.com/in/niharika-ginjupalli-835653204/')
+        df["ShareLink"] = ["https://www.linkedin.com/feed/" for x in range(0,df.shape[0])]
     col2.image(image2, caption=None, width=200, use_column_width=500, clamp=False, channels="RGB", output_format="auto")
     st.balloons()
 
