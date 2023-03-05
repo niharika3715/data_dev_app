@@ -19,8 +19,7 @@ if btn_click == True:
                  "I am so much gratefull for this oppurtunity and particularly the teaching of KANAV BANSAL sir .""\n"
                  "Will get back to you with exciting works, See u After a little while ...")
     if col2.button('Connect with me on LinkedIn') == True:
-        webbrowser.open_new_tab('https://www.linkedin.com/in/niharika-ginjupalli-835653204/')
-    st.markdown(f"[linked-in](?{url_https://www.linkedin.com/in/niharika-ginjupalli-835653204/_str})")
+        webbrowser.open_new_tab(https://www.linkedin.com/in/niharika-ginjupalli-835653204/)
     col2.image(image2, caption=None, width=200, use_column_width=500, clamp=False, channels="RGB", output_format="auto")
     st.balloons()
 
